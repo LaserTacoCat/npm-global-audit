@@ -26,7 +26,7 @@ class Audit extends Command {
 
   async run() {
     // eslint-disable-next-line @typescript-eslint/no-unused-vars
-    const { args, flags } = this.parse(Audit);
+    const { flags } = this.parse(Audit);
 
     const auditResult = await performAudit(flags.auditor as AuditorOptions, flags['audit-level'] as AuditLevelOptions);
 
