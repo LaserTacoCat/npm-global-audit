@@ -1,12 +1,4 @@
-# This repository has been archived
-
-Thank you for everyone who used this module, starred the repository, or contributed with issues. Going forward, this repository will be in a readonly (archived) state, so feel free to fork it if you wish to continue work on it, and note that the module has been published to `npm` so if it still work well for you, then great!
-
-This was a fun project to build, but I simply won't have time or desire to address any feature requests or bug fixes going forward, so, I've decided to simply archive the code to reflect that reality.
-
-Thanks again - cheers!
-
-# NPM Global Audit
+# NPM Global Audit has been revived
 
 A utility to simplify (and make possible) an audit, i.e. `npm audit`, of globally installed node modules.
 
@@ -17,11 +9,11 @@ A utility to simplify (and make possible) an audit, i.e. `npm audit`, of globall
 ## Usage
 
 ```bash
-npx npm-global-audit
+npx LaserTacoCat/npm-global-audit
 
 # or, if you prefer to use npm instead of yarn to perform the actual audit
 
-npx npm-global-audit --auditor npm
+npx npm-global-audit --auditor npm --audit-level=critical
 ```
 
 ## How it works

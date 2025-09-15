@@ -6,9 +6,9 @@
   "author": "Andrew Brey <34140052+andrewbrey@users.noreply.github.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/andrewbrey/npm-global-audit.git"
+    "url": "https://github.com/LaserTacoCat/npm-global-audit"
   },
-  "bugs": "https://github.com/andrewbrey/npm-global-audit/issues",
+  "bugs": "https://github.com/LaserTacoCat/npm-global-audit/issues",
   "scripts": {
     "dev": "./bin/run",
     "lint": "eslint . --ext .ts --config .eslintrc",
