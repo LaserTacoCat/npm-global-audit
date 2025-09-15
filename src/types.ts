@@ -1,5 +1,6 @@
 export type SupportedPackageManager = 'npm';
 export type AuditorOptions = 'yarn' | 'npm';
+export type AuditLevelOptions = 'info' | 'low' | 'moderate' | 'high' | 'critical' | 'none' | null;
 
 export interface NPMGlobalDep {
   version: string;
